@@ -33,24 +33,31 @@ public class MyLinkedList<T> {
     }
 
     private Node head;
+    private Node tail;
+    private int size;
 
     public MyLinkedList(){
         this.head = null;
+        this.tail = null;
+        this.size = 0;
     }
 
     public int size(){
-       Node n = this.head;
-       int counter = 0;
-       while(n!=null){
-           n = n.getNext();
-           counter++;
-       }
-       return counter;
+        return this.size;
+//       Node n = this.head;
+//       int counter = 0;
+//       while(n!=null){
+//           n = n.getNext();
+//           counter++;
+//       }
+//       return counter;
     }
 
     public boolean isEmpty(){
-        if(this.head==null) return true;
+        if(this.size()==0) return true;
         return false;
+//        if(this.head==null) return true;
+//        return false;
     }
 
     private Node getNode(int index){
@@ -68,16 +75,22 @@ public class MyLinkedList<T> {
     }
 
     public boolean add(T value){
+        Node n = new Node(value);
         if(this.isEmpty()){
-            this.head = new Node(value);
+            this.head = n;
+            this.tail = n;
         }else{
-            this.getNode(this.size()-1).setNext(new Node(value));
+            this.tail.setNext(n);
+            this.tail = n;
         }
+        this.size++;
         return true;
     }
 
     public void clear(){
         this.head = null;
+        this.tail = null;
+        this.size = 0;
     }
 
     public boolean contains(T value){
@@ -113,6 +126,7 @@ public class MyLinkedList<T> {
         }else{
             this.getNode(index-1).setNext(toBeRemoved.getNext());
         }
+        this.size--;
         return result;
     }
 
@@ -127,6 +141,7 @@ public class MyLinkedList<T> {
         }else{
             this.getNode(index-1).setNext(toBeRemoved.getNext());
         }
+        this.size--;
         return true;
     }
 

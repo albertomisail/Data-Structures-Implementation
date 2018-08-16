@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c02b44a-0053-4b2e-a2ac-d2e316a2a516" name="Default" comment="" />
+    <list default="true" id="3c02b44a-0053-4b2e-a2ac-d2e316a2a516" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Data_Structures_Implementation/Data_Structures_Implementation.class" afterPath="$PROJECT_DIR$/out/production/Data_Structures_Implementation/Data_Structures_Implementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Data_Structures_Implementation/MyLinkedList$Node.class" afterPath="$PROJECT_DIR$/out/production/Data_Structures_Implementation/MyLinkedList$Node.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Data_Structures_Implementation/MyLinkedList.class" afterPath="$PROJECT_DIR$/out/production/Data_Structures_Implementation/MyLinkedList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Data_Structures_Implementation.java" afterPath="$PROJECT_DIR$/src/Data_Structures_Implementation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyLinkedList.java" afterPath="$PROJECT_DIR$/src/MyLinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyString.java" afterPath="$PROJECT_DIR$/src/MyString.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,12 +19,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Data_Structures_Implementation.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Data_Structures_Implementation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Data_Structures_Implementation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="102">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,16 +32,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+            <state relative-caret-position="799">
+              <caret line="132" column="34" lean-forward="false" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
               <folding>
                 <element signature="class#Node#0;class#MyLinkedList#0" expanded="false" />
-                <element signature="method#size#0;class#MyLinkedList#0" expanded="false" />
-                <element signature="method#isEmpty#0;class#MyLinkedList#0" expanded="false" />
                 <element signature="method#getNode#0;class#MyLinkedList#0" expanded="false" />
+                <element signature="method#add#0;class#MyLinkedList#0" expanded="false" />
+                <element signature="method#clear#0;class#MyLinkedList#0" expanded="false" />
                 <element signature="method#contains#0;class#MyLinkedList#0" expanded="false" />
                 <element signature="method#indexOf#0;class#MyLinkedList#0" expanded="false" />
                 <element signature="method#remove#0;class#MyLinkedList#0" expanded="false" />
@@ -45,12 +53,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyString.java">
+      <file leaf-file-name="MyStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="34">
+              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <folding>
+                <element signature="method#pop#0;class#MyStack#0" expanded="false" />
+                <element signature="method#peek#0;class#MyStack#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+              <folding>
+                <element signature="class#Node#0;class#MyQueue#0" expanded="false" />
+                <element signature="method#isEmpty#0;class#MyQueue#0" expanded="false" />
+                <element signature="method#remove#0;class#MyQueue#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,6 +94,9 @@
       <find>==</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -77,14 +105,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MyLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/MyString.java" />
+        <option value="$PROJECT_DIR$/src/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/Data_Structures_Implementation.java" />
+        <option value="$PROJECT_DIR$/src/MyStack.java" />
+        <option value="$PROJECT_DIR$/src/MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/MyLinkedList.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="840" />
     <option name="height" value="735" />
@@ -104,6 +134,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,10 +153,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,37 +289,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="840" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3344" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.106796116" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33438486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17130308" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -300,25 +329,47 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Data_Structures_Implementation.java</url>
-          <line>17</line>
+          <line>5</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures_Implementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="51" lean-forward="false" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+          <folding>
+            <element signature="class#Node#0;class#MyQueue#0" expanded="false" />
+            <element signature="method#isEmpty#0;class#MyQueue#0" expanded="false" />
+            <element signature="method#remove#0;class#MyQueue#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        <state relative-caret-position="731">
+          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
           <folding>
             <element signature="class#Node#0;class#MyLinkedList#0" expanded="false" />
-            <element signature="method#size#0;class#MyLinkedList#0" expanded="false" />
-            <element signature="method#isEmpty#0;class#MyLinkedList#0" expanded="false" />
             <element signature="method#getNode#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#add#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#clear#0;class#MyLinkedList#0" expanded="false" />
             <element signature="method#contains#0;class#MyLinkedList#0" expanded="false" />
             <element signature="method#indexOf#0;class#MyLinkedList#0" expanded="false" />
             <element signature="method#remove#0;class#MyLinkedList#0" expanded="false" />
@@ -329,11 +380,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyArrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures_Implementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="357">
+          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="method#equals#0;class#MyString#0" expanded="false" />
+            <element signature="method#toUpperCase#0;class#MyString#0" expanded="false" />
+            <element signature="method#toLowerCase#0;class#MyString#0" expanded="false" />
+            <element signature="method#substring#0;class#MyString#0" expanded="false" />
+            <element signature="method#trim#0;class#MyString#0" expanded="false" />
+            <element signature="method#indexOf#0;class#MyString#0" expanded="false" />
+            <element signature="method#indexOf#1;class#MyString#0" expanded="false" />
+            <element signature="method#contains#0;class#MyString#0" expanded="false" />
+            <element signature="method#replace#0;class#MyString#0" expanded="false" />
+            <element signature="method#compareTo#0;class#MyString#0" expanded="false" />
+            <element signature="method#concat#0;class#MyString#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+          <folding>
+            <element signature="class#Node#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#getNode#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#add#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#clear#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#contains#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#indexOf#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#remove#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#remove#1;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#set#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#subList#0;class#MyLinkedList#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures_Implementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+          <folding>
+            <element signature="class#Node#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#getNode#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#add#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#clear#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#contains#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#indexOf#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#remove#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#remove#1;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#set#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#subList#0;class#MyLinkedList#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -341,16 +462,111 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#equals#0;class#MyString#0" expanded="false" />
+            <element signature="method#toUpperCase#0;class#MyString#0" expanded="false" />
+            <element signature="method#toLowerCase#0;class#MyString#0" expanded="false" />
+            <element signature="method#substring#0;class#MyString#0" expanded="false" />
+            <element signature="method#trim#0;class#MyString#0" expanded="false" />
+            <element signature="method#indexOf#0;class#MyString#0" expanded="false" />
+            <element signature="method#indexOf#1;class#MyString#0" expanded="false" />
+            <element signature="method#contains#0;class#MyString#0" expanded="false" />
+            <element signature="method#replace#0;class#MyString#0" expanded="false" />
+            <element signature="method#compareTo#0;class#MyString#0" expanded="false" />
+            <element signature="method#concat#0;class#MyString#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <element signature="method#equals#0;class#MyString#0" expanded="false" />
+            <element signature="method#toUpperCase#0;class#MyString#0" expanded="false" />
+            <element signature="method#toLowerCase#0;class#MyString#0" expanded="false" />
+            <element signature="method#substring#0;class#MyString#0" expanded="false" />
+            <element signature="method#trim#0;class#MyString#0" expanded="false" />
+            <element signature="method#indexOf#0;class#MyString#0" expanded="false" />
+            <element signature="method#indexOf#1;class#MyString#0" expanded="false" />
+            <element signature="method#contains#0;class#MyString#0" expanded="false" />
+            <element signature="method#replace#0;class#MyString#0" expanded="false" />
+            <element signature="method#compareTo#0;class#MyString#0" expanded="false" />
+            <element signature="method#concat#0;class#MyString#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmptyStackException.java" />
     <entry file="file://$PROJECT_DIR$/src/Data_Structures_Implementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="102">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="method#MyArrayList#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#isEmpty#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#set#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#add#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#add#1;class#MyArrayList#0" expanded="false" />
+            <element signature="method#indexOf#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#contains#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#remove#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#remove#1;class#MyArrayList#0" expanded="false" />
+            <element signature="method#subList#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#clear#0;class#MyArrayList#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <element signature="method#pop#0;class#MyStack#0" expanded="false" />
+            <element signature="method#peek#0;class#MyStack#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding>
+            <element signature="class#Node#0;class#MyQueue#0" expanded="false" />
+            <element signature="method#isEmpty#0;class#MyQueue#0" expanded="false" />
+            <element signature="method#remove#0;class#MyQueue#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="132" column="34" lean-forward="false" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
+          <folding>
+            <element signature="class#Node#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#getNode#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#add#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#clear#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#contains#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#indexOf#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#remove#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#remove#1;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#set#0;class#MyLinkedList#0" expanded="false" />
+            <element signature="method#subList#0;class#MyLinkedList#0" expanded="false" />
           </folding>
         </state>
       </provider>
